@@ -2,27 +2,17 @@
     font-family: "Radjhani";
     src: url("fonts/Rajdhani-Medium.ttf") format("truetype");
 }
+
 @font-face {
     font-family: "Space Grotesk";
     src: url("fonts/SpaceGrotesk-Regular.ttf") format("truetype");
 }
 
-
-
-.zoom-message {
-    position: fixed;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-    text-align: center;
-  }
-
-  @media only screen and (min-width: 1515px) {
-    .zoom-message, .batman {
+@media only screen and (min-width: 1515px) {
+    .batman {
       display: none;
     }
-  }
+}
 
 body{
     background-image: url("assets/Illustrations/Bathome1.png") ;
@@ -30,17 +20,15 @@ body{
     background-size: 100%;
     width: 86%;
     margin: auto;
-    /*margin-left: 30px;*/
     background-color:#000000;
     color: whitesmoke;
     font-family: "Space Grotesk";
     border-left: 4px solid #bcbbbd3f;
     border-right: 4px solid #bcbbbd3f
-    
 }
 
 hr{
-    margin-top: 9%;
+    margin-top: 8.5%;
     height: 5px;
     background-color: #bcbbbd3f;
     border: none;
@@ -56,7 +44,6 @@ hr{
 .JusticeLeague{
     width: 100%;
     margin-left: 0%;
-
 }
 
 #home{
@@ -66,6 +53,7 @@ hr{
     font-family: "Radjhani";
     font-size: 36px;
 }
+
 #home:hover{
     color: whitesmoke;
     font-weight: bold;
@@ -86,10 +74,10 @@ hr{
 }
 
 #introduction{
-    width: 47%;
+    width: 47.4%;
     margin: auto;
-    margin-top: 17%;
-    font-size:22px;
+    margin-top: 16.5%;
+    font-size:19.5px;
     text-align: center;
     display: block;
 }
@@ -97,7 +85,7 @@ hr{
 .navigation{
     position:fixed;
     display: block;
-    right: 3.4%;
+    right: 2.95%;
     top: 54%;
 }
 
@@ -110,7 +98,7 @@ hr{
 button{
     margin-top: 30px;
     padding: 18px;
-    margin: 30px;
+    margin: 38px;
     padding-left: 30px;
     padding-right: 30px;
     font-family: "Radjhani";
@@ -127,16 +115,17 @@ button:hover{
 .fleche{
     display: block;
     margin: auto;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 240px;
+    margin-bottom: 60px;
 }
 
 main{
     margin-left: 8%;
 }
+
 #hero p, #nemesis p, #allies p, #league p{
-    width: 81%;
-    font-size: 22px;
+    width: 82%;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -144,9 +133,14 @@ main{
     margin-top: 100px;
 }
 
+.weapon{
+    margin-left: 0px;
+    width: 150px;
+}
+
 .illustration{
     display: inline-block;
-    margin-right: 70px;
+    margin-right: 40px;
     text-align: center;
 }
 
@@ -157,12 +151,11 @@ main{
 .gauche{
     margin-top: 8%;
     height: 70px;
-
 }
 
 .poster{
-    height: 258px;   
-    margin-left: 175px; 
+    height: 240px;   
+    margin-left: 140px; 
 }
 
 .multimedia{
@@ -181,7 +174,6 @@ main{
     font-family: "Radjani";
     font-size: 12px;
     font-weight: bold;
-    
 }
 
 .title{
@@ -192,36 +184,37 @@ main{
 .rating{
     color:#FFFF00 ;
 }
+
 .multimedia p{
     background-color: #19587d;
     opacity: 80%;
     border-radius: 0px 15px 15px 0px;
     padding: 20px;
-    margin-right: 180px;
+    margin-right: 150px;
     width: 32%;
-    font-size: 12.5px;
+    font-size: 11.5px;
 }
 
 .droite{
     margin-top: 8%;
     height: 70px;
 }
+
 .batman{
     height: 272px;
-    width: 480px;
+    width: 440px;
     position:absolute;
     right: 0%;
-    top: 362%;
+    top: 405%;
 }
 
 h2 img{
     width: 120px;
     left: 0px;
-
 }
 
 video{
-    width: 90%;
+    width: 91%;
     margin: auto;
 }
 
@@ -235,7 +228,7 @@ video{
 }
 
 .contacts h2{
-    margin-left: 2%;
+    margin-left: 25%;
 }
 
 .contacts button{
@@ -258,7 +251,7 @@ video{
     color: whitesmoke;
     border: none;
     background-color: transparent;
-    border-bottom: solid 2px #2F4F4F;
+    border-bottom: solid 2px whitesmoke;
 }
 
 .confirmation{
@@ -286,6 +279,7 @@ a{
     font-family: "Radjhani";
     text-decoration: none;
 }
+
 h2{
     font-family: "Radjhani";
     font-size: 36px;
@@ -327,6 +321,7 @@ footer{
     margin-top: 100px;
     text-align: center;
 }
+
 footer p{
     font-size: small;
 }
