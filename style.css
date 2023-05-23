@@ -27,6 +27,23 @@ body{
     border-right: 4px solid #bcbbbd3f
 }
 
+body{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    animation: fade-in 2s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 6.7%;
+    }
+  }
+
 hr{
     margin-top: 8.5%;
     height: 5px;
@@ -36,7 +53,7 @@ hr{
 
 #logo{
     display:inline-block;
-    margin-top: 45px;
+    margin-top: 4%;
     margin-left: 11%;
     vertical-align: auto;
 }
@@ -48,7 +65,7 @@ hr{
 
 #home{
     position: absolute;
-    top: 45px;
+    top: 4%;
     right:12%;
     font-family: "Radjhani";
     font-size: 36px;
@@ -66,7 +83,7 @@ hr{
 
 .logo{
     margin: auto;
-    margin-right: 20px;
+    margin-right: 3%;
 }
 
 .logo:hover{
@@ -92,15 +109,15 @@ hr{
 .navigation img{
     display: block;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 18%;
 }
 
 button{
-    margin-top: 30px;
-    padding: 18px;
-    margin: 38px;
+    margin-top: 3%;
+    padding: 4%;
+    margin: 6.5%;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 6%;
     font-family: "Radjhani";
     font-size: 20px;
     color: whitesmoke;
@@ -159,6 +176,7 @@ main{
 }
 
 .multimedia{
+    width: 100%;
     display:flex;
     margin: auto;
     margin-bottom:40px ;
@@ -323,5 +341,5 @@ footer{
 }
 
 footer p{
-    font-size: small;
+    font-size: x-small;
 }
